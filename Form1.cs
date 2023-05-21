@@ -2,14 +2,11 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using WindowsInput;
 
 namespace Zoom_XY
 {
     public partial class Form1 : Form
     {
-        private InputSimulator _input = new InputSimulator(); //Activate KeyBoardControl
-        private MouseSimulator _mouse = new MouseSimulator(); //Activate MouseControl
         private bool _working = false;
 
         // Activate an application window.
